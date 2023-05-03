@@ -13,7 +13,8 @@ Il faudra trier les données en fonction de:
 * Internat ou non
 
 ## Affichage des données
-Données qui seront affichées dans l'interface:
+Données concernant les formations qui seront affichées dans l'interface:
+* Fillière
 * Taux d'accessibilité 
 * Position sur une carte
 * Places disponibles

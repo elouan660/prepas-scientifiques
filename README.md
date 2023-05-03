@@ -3,7 +3,8 @@ Projet 1G5 NSI Elouan Deschamps, recolte et triage de données concernant les pr
 
 Ce projet consiste en une interface permettant de trouver et d'afficher des données par établissement concernant les prépas scientifiques disponibles sur parcoursup.
 
-## Triage de données
+## Objectifs
+### Triage de données
 Il faudra trier les données en fonction de:
 * Fillière
 * Types de Bachelier admissible
@@ -12,7 +13,7 @@ Il faudra trier les données en fonction de:
 * Ville
 * Internat ou non
 
-## Affichage des données
+### Affichage des données
 Données concernant les formations qui seront affichées dans l'interface:
 * Fillière
 * Taux d'accessibilité 

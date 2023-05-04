@@ -34,5 +34,3 @@ Avec le fichier csv:
 * Certaines prépas sont hors cadres et ont un intilué différent des fillières traditionelles.
 * Certaines cases sont vides
 
-Avec le raspberry-pi:
-* Le module python ssl n'a pas pu être compilé à cause de la version de openssl (1.1.1), il faudrait compiler openssl, passer en debian testing ou sur fedora

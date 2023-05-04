@@ -28,6 +28,7 @@ Données concernant les formations qui seront affichées dans l'interface:
 * Places disponibles
 * Places en internat disponibles
 * Lien vers la fiche formation de l'établissement
+* Statistques générales dans des graphiques
 
 ## Problèmes
 Avec le fichier csv:

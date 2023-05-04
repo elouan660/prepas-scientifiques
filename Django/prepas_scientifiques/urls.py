@@ -19,5 +19,6 @@ import prepa.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', prepa.views.home, name='home')
+    path('', prepa.views.home, name='home'),
+    path('question/<int:question_id>/', prepa.views.question_detail, name='q'),
 ]

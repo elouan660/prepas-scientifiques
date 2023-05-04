@@ -1,14 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" lang="fr">
-        <title>Example</title>
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    </head>
-    <body>
-        <h1>Voici des données concernant le LGT Livet</h1>
-        
-    </body>
-</html>
+{% extends "prepa/base.html" %}
+
+{% block title %}
+Test
+{% endblock %}
+
+{% block content %}
+    <h1>Voici des données concernant le LGT Livet</h1>
+{% endblock %}
 

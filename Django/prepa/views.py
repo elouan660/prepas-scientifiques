@@ -13,4 +13,4 @@ def question_detail(request, question_id):
         'nb_questions': Question.objects.count(),
         'question_number': question.get_number(),
     }
-    return render(request, 'prepa/q.html')
+    return render(request, 'prepa/q.html', context)

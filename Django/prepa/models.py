@@ -5,6 +5,8 @@ class Question(models.Model):
     label = models.CharField(max_length=100)
     def __str__(self):
         return self.label
+    def get_number(self):
+        return Question.objects.filter(id__lte=self.id).count()
 
 class Option(models.Model):
     label = models.CharField(max_length=100)

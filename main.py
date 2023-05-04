@@ -9,14 +9,16 @@ prepa_list = []
 for ligne in prepa_csv:
     prepa_list.append(ligne)
 
-def search_lycée(search):
-    count=0
-    for lycée in prepa_list:
-        if search in prepa_list[count][3]:
-            prepa = prepa_list[count][3]
-            print(f"{prepa} Trouvé à l'index {count}")
-        count += 1
 
+count=0
+search = input()
+for lycée in prepa_list:
+    if search in prepa_list[count][3]:
+        prepa = prepa_list[count][3]
+        print(f"{prepa} Trouvé à l'index {count}")
+    count += 1
+
+file_html = open("page.html", "w")
 html = f"""
 <!DOCTYPE html>
 <html>

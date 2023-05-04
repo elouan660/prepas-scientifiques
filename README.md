@@ -3,7 +3,7 @@ Projet 1G5 NSI Elouan Deschamps, recolte et triage de données concernant les pr
 
 Ce projet consiste en une interface permettant de trouver et d'afficher des données par établissement concernant les prépas scientifiques disponibles sur parcoursup.
 
-## Framework utilisés
+## Frameworks utilisés
 Cette application sera utilisable dans un navigateur Web et utilisera:
 * Html
 * Css

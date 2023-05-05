@@ -1,4 +1,25 @@
 body{
-    background-color: yellow;
+    background-color: white;
     text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    align-items: start;
+    justify-content: space-between;
+}
+.form{
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: right;
 }

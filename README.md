@@ -19,6 +19,7 @@ Il faudra trier les données en fonction de:
 * Académie
 * Ville
 * Internat ou non
+* Public ou non
 
 ### Affichage des données
 Données concernant les formations qui seront affichées dans l'interface:

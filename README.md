@@ -33,5 +33,7 @@ Données concernant les formations qui seront affichées dans l'interface:
 ## Problèmes
 Avec le fichier csv:
 * Certaines prépas sont hors cadres et ont un intilué différent des fillières traditionelles.
-* Certaines cases sont vides
+* Certaines fillières traditionnelles inclent des précisions dans le nom de la fillière
+* Certaines cases parfois sont vides, parfois sans raison apparente
+* Beaucoup de données inutiles sont incluses dans le csv
 

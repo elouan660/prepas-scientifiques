@@ -9,6 +9,8 @@ Cette application sera utilisable dans un navigateur Web et utilisera:
 * Css
 * Python
 * Django
+* Javascript
+* Leaflet
 
 ## Objectifs
 ### Triage de données

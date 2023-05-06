@@ -27,6 +27,7 @@ li{
     margin-left: 5%;
     padding-right: 0px;
     padding: 5px;
+    padding-bottom: 15px;
     background-color: #272b34;
     border-radius: 15px;
 }
@@ -41,8 +42,10 @@ input, button{
     width: 300px;
     margin: auto;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    scroll-snap-type: y none ;
     border: solid;
+    border-radius: 15px;
     background-color: #20252b;
 }
 

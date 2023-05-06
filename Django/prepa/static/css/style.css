@@ -39,7 +39,7 @@ input, button{
 }
 .scroller {
     height: 300px;
-    width: 300px;
+    width: 400px;
     margin: auto;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -52,6 +52,11 @@ input, button{
 .scroller section {
     scroll-snap-align: start;
 }
-#map {
-    height: 180px; 
+#map{
+    height: 300px; 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: solid;
 }

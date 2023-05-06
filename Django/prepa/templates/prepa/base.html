@@ -4,16 +4,17 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        <script href="{% static 'js/cartes.js' %}"></script>
         <title>{% block title%}{% endblock %} - prepas</title>
     </head>
     <body>
         <div class="container">
             {% block content %}{% endblock %}
         </div>
-        <article class="mentions-bottom">
-            <a href="Mentions.html">Mentions légales</a> <br>
             Copyright © Elouan Deschamps<br>
-            Le code source de ce site est publié sous license 
+            Le code source de ce site est publié sous licence 
             <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">
               GNU Affero General Public Licence version 3.0 <br>
               <img src="https://www.gnu.org/graphics/agplv3-88x31.png" alt="agplv3"> <br>

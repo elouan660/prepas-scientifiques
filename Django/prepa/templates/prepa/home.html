@@ -8,18 +8,35 @@ Test
 <div class="grid">
     <div>
         <h1>Bienvenue sur prépas scientifiques</h1>
-        <ul class="form">
-            <li>Filière <input type="text"></li>
-            <li>Département <input type="text"></li>
-            <li>Nom <input type="text"></li>
-            <li><button>Rechercher</button></li>
-        </ul>
+        <form method="post">
+            <ul class="form">
+                <li>Filière <input type="text"></li>
+                <li>Département <input type="text"></li>
+                <li>Nom <input type="text"></li>
+                <li><button>Rechercher</button></li>
+            </ul>
+        </form>
     </div>
     <div>
         <h2>Carte</h2>
+        <div id="map"></div>
     </div>
     <div>
         <h2>Liste</h2>
+        <article class="scroller">
+            <section>
+                <h2>Section one</h2>
+            </section>
+            <section>
+                <h2>Section two</h2>
+            </section>
+            <section>
+                <h2>Section three</h2>
+            </section>
+        </article>
+    </div>
+    <div>
+        <h2>Statistiques</h2>
     </div>
 </div>
 {% endblock %}

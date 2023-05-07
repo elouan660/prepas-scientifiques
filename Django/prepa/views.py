@@ -14,3 +14,4 @@ def question_detail(request, question_id):
         'question_number': question.get_number(),
     }
     return render(request, 'prepa/q.html', context)
+

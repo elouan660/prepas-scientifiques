@@ -2,7 +2,7 @@
 {% load static%}
 
 {% block title %}
-Test
+Prepas scientifiques
 {% endblock %}
 
 {% block content %}
@@ -21,19 +21,25 @@ Test
     <div>
         <h2>Carte</h2>
         <div id = "map"></div>
-        <script src="{% static 'js/cartes.js' %}"></script>
+        <script src="{% static 'js/cartes.js' %}"></script> <!--Doit être placé après le div d'id map -->
     </div>
     <div>
         <h2>Liste</h2>
         <article class="scroller">
             <section>
                 <h2>Lycée Livet</h2>
+                Le meilleur
             </section>
             <section>
                 <h2>Lycée Clemenceau</h2>
+                bof bof
             </section>
             <section>
                 <h2>Lycée Lesage</h2>
+                Ok
+            </section>
+            <section>
+                <h2>Test</h2>
             </section>
         </article>
     </div>

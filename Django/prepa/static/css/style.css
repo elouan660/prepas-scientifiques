@@ -51,6 +51,7 @@ input, button{
 
 .scroller section {
     scroll-snap-align: start;
+    border-bottom: solid;
 }
 #map{
     height: 300px; 

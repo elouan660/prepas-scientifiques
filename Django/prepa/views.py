@@ -3,6 +3,7 @@ from prepa.models import Question
 
 # Create your views here.
 def home(request):
+    print(request.GET)
     return render(request, 'prepa/home.html')
 
 def question_detail(request, question_id):
@@ -14,4 +15,3 @@ def question_detail(request, question_id):
         'question_number': question.get_number(),
     }
     return render(request, 'prepa/q.html', context)
-

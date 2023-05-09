@@ -7,27 +7,34 @@ Accueil
 
 {% block content %}
 <div class="grid">
+
     <div>
         <h1>Bienvenue sur prépas scientifiques</h1>
         <form method="get">
+            Recherchez ici une prépa scientifique selon les critères de votre choix
             <ul class="form">
-                <li>Filière <input type="text" name="filière"></li>
-                <li>Département <input type="number" name="Département"></li>
-                <li>Nom <input type="text" name="Nom"></li>
+                <li>Filière <input type="text" name="filière" value="{{ filière }}"></li>
+                <li>Département <input type="number" name="Département" value="{{ département }}"></li>
+                <li>Nom <input type="text" name="Nom" value={{ nom }}></li>
+                <li>Privé <input name="Privé" type='checkbox'>  Public <input name="Public" type="checkbox"> </li>
                 <li><button type="submit">Rechercher</button></li>
             </ul>
         </form>
     </div>
+
     <div>
         <h2>Carte</h2>
         <div id = "map"></div>
         <script src="{% static 'js/cartes.js' %}"></script> <!--Doit être placé après le div d'id map -->
     </div>
+
     <div>
         <h2>Liste</h2>
         <article class="scroller">
             <section>
-                <h2>Lycée Livet</h2>
+                <h2>{{ nom }}</h2>
+                {{ département }} <br>
+                {{ filière }} <br>
                 Le meilleur
             </section>
             <section>
@@ -43,9 +50,11 @@ Accueil
             </section>
         </article>
     </div>
+
     <div>
         <h2>Statistiques</h2>
     </div>
+    
 </div>
 {% endblock %}
 
